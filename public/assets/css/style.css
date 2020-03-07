@@ -1,0 +1,68 @@
+body {
+    background: linear-gradient(to right, #021859, #1a1a1a);
+    font-family: "DejaVu Sans Mono",sans-serif;
+}
+
+#show {
+    background: linear-gradient(to right, #f2f2f2, #6c63ff);
+    font-family: "DejaVu Sans Mono",sans-serif;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.show {
+    justify-content: start;
+}
+
+.background {
+    position: absolute;
+    top: 5%;
+    left: 0;
+    z-index: -3;
+}
+
+.card {
+    background: #1d212494;
+    border-radius: 15px;
+    border: none;
+    color: aliceblue;
+    text-shadow: 1px 1px 5px black;
+    box-shadow: 1px 1px 7px black;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    width: 150px;
+    background-color: #645bd6;
+    border-color: #645bd6;
+}
+
+.btn-primary:hover {
+    background: #6c63ff;
+    border-color: #6c63ff;
+}
+
+.card-header {
+    background: #1c113d;
+
+}
+
+
+
+.showImg {
+    border-radius: 15px;
+    border: 1px solid #05133c;
+    box-shadow: 1px 1px 7px black;
+}
+
+
